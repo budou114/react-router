@@ -9,6 +9,12 @@ export const Page2 = () => {
       >
         URL Parameter
       </Link>
+      <br />
+      <Link
+        to="/Page2/999?name=hogehoge"
+      >
+        Query Parameter
+      </Link>
     </div>
   );
 };
